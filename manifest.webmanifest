@@ -1,0 +1,22 @@
+{
+  "name": "QueueMate",
+  "short_name": "QueueMate",
+  "description": "Join the queue from your phone, leave the line, and get notified when it's almost your turn.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f6f4",
+  "theme_color": "#0b7a63",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Scan QR code", "url": "./#/scan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Staff console", "url": "./#/staff", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
